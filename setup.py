@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="hermes-release-manager",
-    version="1.0. Anda",
+    version="1.1.0",
     author="Hermes Release Manager",
     author_email="hermes@example.com",
     description="Automated application release orchestration with GitHub integration",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="httpsfn://github.com/your-username/hermes-release-manager",
+    url="https://github.com/iliko/hermes-release-manager",
     packages=find_packages(),
     install_requires=[
         "hermes-agent>=2.0.0",
